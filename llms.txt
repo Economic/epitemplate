@@ -1,0 +1,64 @@
+# epitemplate
+
+epitemplate is a [pkgdown template
+package](https://pkgdown.r-lib.org/articles/customise.html#template-packages)
+that provides consistent styling and layout for all R package
+documentation sites maintained by the [Economic Policy
+Institute](https://www.epi.org/).
+
+## Usage
+
+To use this template, add the following to your package’s
+`_pkgdown.yml`:
+
+``` yaml
+template:
+  package: epitemplate
+```
+
+And add this to your `DESCRIPTION` so that GitHub Actions can install
+the template:
+
+    Config/Needs/website: economic/epitemplate
+
+## Packages using this template
+
+- [epiextractr](https://economic.github.io/epiextractr/)
+- [epidatatools](https://economic.github.io/epidatatools/)
+- [epitargets](https://economic.github.io/epitargets/)
+- [realtalk](https://economic.github.io/realtalk/)
+- [swadlr](https://economic.github.io/swadlr/)
+- [prefab](https://economic.github.io/prefab/)
+
+## What it includes
+
+- **EPI color palette**: dark blue navbar, light blue links, neutral
+  grays
+- **Figtree** font for body and headings (bundled, no CDN dependency)
+- **Fira Code** font for code blocks (bundled)
+- Flat design with minimal shadows
+- Light footer with standard pkgdown attribution
+
+## Installation
+
+``` r
+# install from r-universe
+install.packages("epitemplate", repos = "https://economic.r-universe.dev")
+
+# or install from GitHub
+pak::pak("economic/epitemplate")
+```
+
+# Package index
+
+## All functions
+
+- [`test()`](https://economic.github.io/epitemplate/reference/test.md) :
+  Test function for template preview
+
+# Articles
+
+### All vignettes
+
+- [Template
+  preview](https://economic.github.io/epitemplate/articles/template-preview.md):
