@@ -36,10 +36,17 @@ Config/Needs/website: economic/epitemplate
 
 ## Installation
 
+Install from r-universe
+
 ```r
 # install from r-universe
-install.packages("epitemplate", repos = "https://economic.r-universe.dev")
+install.packages(
+  "epitemplate", 
+  repos = c("https://economic.r-universe.dev", getOptions("repos"))
+)
+```
+or install from GitHub
 
-# or install from GitHub
+```r
 pak::pak("economic/epitemplate")
 ```
