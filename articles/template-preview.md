@@ -11,7 +11,7 @@ demographics, and union status. These extracts are maintained by EPI and
 distributed through the epiextractr R package.
 
 Researchers can load ORG, Basic Monthly, March, and May supplement
-files. All columns are selected by default, but users can specify a
+files. *All* columns are selected by default, but users can specify a
 subset of variables for faster loading and lower memory use.
 
 ## Bullet lists
