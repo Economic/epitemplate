@@ -23,6 +23,12 @@ navbar:
   type: dark
   bg: "#063757"
 
+authors:
+  Economic Policy Institute:
+    href: https://www.epi.org
+    html: >-
+      <img src='https://files.epi.org/2016/economic-policy-institute-epi-horizontal-logo.png' alt='Economic Policy Institute' width='180' />
+
 footer:
   structure:
     left: developed_by

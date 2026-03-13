@@ -19,12 +19,12 @@ Config/Needs/website: economic/epitemplate
 
 ## Packages using this template
 
-- [epiextractr](https://economic.github.io/epiextractr/)
 - [epidatatools](https://economic.github.io/epidatatools/)
+- [epiextractr](https://economic.github.io/epiextractr/)
 - [epitargets](https://economic.github.io/epitargets/)
+- [prefab](https://economic.github.io/prefab/)
 - [realtalk](https://economic.github.io/realtalk/)
 - [swadlr](https://economic.github.io/swadlr/)
-- [prefab](https://economic.github.io/prefab/)
 
 ## What it includes
 
