@@ -1,0 +1,29 @@
+template:
+  bootstrap: 5
+  light-switch: false
+  bslib:
+    # Core colors
+    primary: "#063757"
+    fg: "#334155"
+    bg: "#FFFFFF"
+    link-color: "#1372AE"
+
+    # Typography — font files loaded via @font-face in extra.scss
+    base_font: "Figtree, sans-serif"
+    heading_font: "Figtree, sans-serif"
+    code_font: "Fira Code, monospace"
+    font_scale: 1.0
+
+    # Component tweaks
+    border-radius: 0.25rem
+    btn-border-radius: 0.25rem
+    pkgdown-nav-height: 62px
+
+navbar:
+  type: dark
+  bg: "#063757"
+
+footer:
+  structure:
+    left: developed_by
+    right: built_with

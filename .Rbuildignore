@@ -1,0 +1,7 @@
+^\.claude$
+^CLAUDE\.md$
+^plans$
+^LICENSE\.md$
+^_pkgdown\.yml$
+^docs$
+^\.github$
