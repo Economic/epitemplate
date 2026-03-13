@@ -1,6 +1,6 @@
 # epitemplate
 
-epitemplate is a [pkgdown template package](https://pkgdown.r-lib.org/articles/customise.html#template-packages) that provides consistent styling and layout for all R package documentation sites maintained by the [Economic Policy Institute](https://www.epi.org/).
+epitemplate is a [pkgdown template package](https://pkgdown.r-lib.org/articles/customise.html#template-packages) that provides consistent styling for all R package documentation sites maintained by the [Economic Policy Institute](https://www.epi.org/).
 
 ## Usage
 
