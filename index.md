@@ -7,8 +7,8 @@ maintained by the [Economic Policy Institute](https://www.epi.org/).
 
 ## Usage
 
-To use this template, add the following to your package’s
-`_pkgdown.yml`:
+To use this template for an EPI R package documentation site, add the
+following to your package’s `_pkgdown.yml`:
 
 ``` yaml
 template:
@@ -31,8 +31,7 @@ the template:
 
 ## What it includes
 
-- **EPI color palette**: dark blue navbar, light blue links, neutral
-  grays
+- **Color palette**: dark blue navbar, light blue links, neutral grays
 - **Figtree** font for body and headings (bundled, no CDN dependency)
 - **Fira Code** font for code blocks (bundled)
 - Flat design with minimal shadows
