@@ -1,6 +1,6 @@
 Package: epitemplate
 Title: pkgdown Template for EPI R Packages
-Version: 0.1.0
+Version: 0.2.0
 Authors@R:
     c(person(given = "Ben",
              family = "Zipperer",
@@ -12,7 +12,8 @@ Description: A pkgdown template package that provides consistent styling and
     layout for R package documentation sites maintained by the Economic Policy
     Institute. Use this package as the template in your pkgdown configuration
     to apply EPI branding and defaults.
-URL: https://economic.github.io/epitemplate/
+URL: https://economic.github.io/epitemplate/, https://github.com/Economic/epitemplate
+BugReports: https://github.com/economic/epitemplate/issues
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

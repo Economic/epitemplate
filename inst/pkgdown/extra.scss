@@ -87,9 +87,16 @@ footer {
     margin-bottom: 0;
   }
 
+  .pkgdown-footer-left p {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
   .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   @include media-breakpoint-down(sm) {
@@ -147,6 +154,9 @@ pre {
   display: flex;
   align-items: center;
   min-height: auto;
+  margin-top: -0.3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .template-home .page-header {

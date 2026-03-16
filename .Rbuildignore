@@ -3,5 +3,6 @@
 ^plans$
 ^LICENSE\.md$
 ^_pkgdown\.yml$
+^pkgdown$
 ^docs$
 ^\.github$
